@@ -1,0 +1,114 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70%;
+    background-color: #eeeeee;
+}
+
+p, h3 {
+    padding: 0;
+    margin: 1px 0;
+}
+
+.header-labels, .row-labels, .oid-labels {
+    color: red;
+}
+
+.blue-labels, .red-yellow-labels, .oid-labels {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.red-yellow-labels {
+    margin-left: 10px;
+}
+
+.row-labels {
+    display: inline-block;
+    width: 60px;
+    vertical-align: bottom;
+}
+
+.oid-labels {
+    width: 143px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.oid-labels .label {
+    width: 100px;
+    text-align: left;
+}
+
+.label {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.element {
+    width: 60px;
+    height: 52px;
+    border: solid black 1px;
+    padding-top: 8px;
+    text-align: center;
+    color: #1913a2;
+    margin: 0 2px 2px 0;
+}
+
+.top-elements {
+    display: inline-block;
+}
+
+.blue {
+    background-color: #689bff;
+}
+
+.red {
+    background-color: #fd9a98;
+}
+
+.yellow {
+    background-color: #fecb00;
+}
+
+.green {
+    background-color: #1fca21;
+}
+
+.blue-elements, .red-elements, .yellow-elements, .green-elements {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.blue-elements {
+    width: 128px;
+    margin-left: 0;
+}
+
+.red-elements {
+    width: 640px;
+    margin-left: 10px;
+}
+
+.yellow-elements {
+    width: 384px;
+    margin-left: -4px;
+}
+
+.green-elements {
+    width: 900px;
+    margin: 20px 0 0;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.solo {
+    display: flex;
+    justify-content: flex-end;
+}
